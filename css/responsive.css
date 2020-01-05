@@ -1,0 +1,217 @@
+.mobile {
+  background-color: #fff;
+  display: none;
+  font-family: 'Montserrat';
+}
+
+.title {
+  color: #151965;
+  font-weight: bold;
+  text-align: center;
+}
+
+.m-hero {
+  height: 276px;
+  position: relative;
+  background-image: url('../images/garagedoors.jpg');
+  background-position: center;
+}
+
+.m-hero-overlay {
+  height: 276px;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(21, 25, 101, 1) 0%, rgba(21, 25, 101, 0) 70%);
+}
+
+.m-content-image {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.m-hero-overlay h1 {
+  margin-top: 240px;
+  color: #fff;
+  text-align: center;
+}
+
+.m-offers {
+  height: 184px;
+  background-image: url('../images/garage-door-model-100.jpg');
+  background-position: center;
+  margin-top: 1em;
+}
+
+.m-offers-overlay {
+  height: 184px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(21, 25, 101, 0.9);
+}
+
+.m-offers-overlay p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.m-repair-offer {
+  background: linear-gradient(115deg, rgba(70, 181, 209, 1) 0%, rgba(81, 85, 133, 1) 100%);
+  text-align: center;
+  color: #fff;
+}
+
+.mro1 {
+  padding-top: 0.6em;
+  font-size: 1.4em;
+  margin-bottom: 0.2em;
+}
+
+.mro2 {
+  margin-top: 0;
+}
+
+.mro3 {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-top: .2em;
+  margin-bottom: .2em;
+}
+
+.mro4 {
+  font-size: 1.4em;
+  padding-bottom: 0.8em;
+}
+
+.m-text-center {
+  text-align: center;
+}
+
+.m-cta {
+  background-color: #32407B;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  padding: 0.7em 1.1em;
+  font-size: 1.6em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.m-content {
+  padding: 0 0.9em;
+}
+
+.m-content h2 {
+  font-weight: 400;
+  margin-top: 1.3em;
+  margin-bottom: 0.3em;
+}
+
+.m-content p {
+  margin-top: 0;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.m-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-menu {
+  margin-top: 1em;
+  margin-left: .5em;
+}
+
+.m-footer {
+  background-color: #32407B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+  margin-top: 1.5em;
+  flex-wrap: wrap;
+  color: #FFF;
+}
+
+.m-footer-links {
+  margin-top: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.m-social-links a {
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+.m-footer-links a {
+  color: #fff;
+}
+
+.m-footer img {
+  width: 3em;
+  margin-right: .5em;
+}
+
+.m-sidemenu {
+  display: none;
+  width: 260px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #32407B;
+  bottom: 0;
+  z-index: 10000;
+}
+
+.m-sidemenu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  display: block;
+  margin-left: 1em;
+  margin-top: 1.5em;
+  cursor: pointer;
+}
+
+#m-close-menu {
+  margin-right: 1em;
+  margin-top: 1em;
+  float: right;
+}
+
+.m-input-container label {
+  display: block;
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+.m-input-container input[type="text"] {
+  border: 1px solid #151965;
+  border-radius: 8px;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  width: 100%;
+  line-height: 2em;
+}
+
+
+@media screen and (max-width: 450px) {
+  body {
+    background-image: none;
+    color: #151965;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}

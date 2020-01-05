@@ -1,0 +1,588 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/body.png) left top repeat-x;
+  font-family: Calibri;
+  font-size: 12px;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+.main-page {
+  margin: 0px auto;
+  padding: 0px;
+  width: 1024px;
+  overflow: hidden;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  width: 1024px;
+}
+
+.logo {
+  margin: 0px;
+  padding: 0px;
+  width: 424px;
+  float: left;
+}
+
+.header-right {
+  margin: 0px;
+  padding: 0px;
+  width: 365px;
+  float: right;
+}
+
+.social-network {
+  margin: 20px 0 0 0px;
+  padding: 0px;
+  width: 365px;
+  float: right;
+  overflow: hidden;
+}
+
+.social-network ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+.social-network ul li {
+  margin: 0px;
+  padding: 0px 0 0 5px;
+  font-family: Calibri;
+  font-size: 22px;
+  color: #333333;
+  list-style: none;
+  float: left;
+  font-weight: bold;
+}
+
+.header-right h3 {
+  margin: 0px;
+  padding: 10px 0 0 0px;
+  font-family: Calibri;
+  font-size: 22px;
+  color: #000000;
+  font-weight: bold;
+  float: right;
+}
+
+.call-us {
+  margin: 10px 0 0 0px;
+  padding: 0px;
+  width: 250px;
+  overflow: hidden;
+  background: url(../images/phone.png) 20px top no-repeat;
+  float: right;
+}
+
+.call-us h2 {
+  margin: 0px;
+  padding: 0px 0 0 10px;
+  font-family: "Bookman Old Style", monospace, "Maiandra GD";
+  font-size: 25px;
+  color: #4b290e;
+  float: right;
+}
+
+.baner-main {
+  margin: 0px;
+  padding: 0px;
+  width: 1024px;
+  height: 403px;
+  overflow: hidden;
+  background: url(../images/baner-main.png) left top no-repeat;
+}
+
+.baner-insaid {
+  margin: 0px auto;
+  padding: 0px;
+  width: 984px;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  width: 984px;
+}
+
+/*.menu ul{margin:0px; padding:0px;}
+
+.menu ul li{margin:0px; padding:0px 0 0 0px; font-family:Calibri; font-size:12px; color:#FFFFFF; list-style:none; float:left; background:url(../images/line.png) left top no-repeat; height:39px;}
+
+.menu ul li a{margin:0px; padding:10px 30px 0 40px; font-family:Calibri; font-size:12px; color:#FFFFFF; list-style:none; float:left; text-decoration:none; height:39px;}
+
+.menu ul li a:hover{margin:0px; padding:10px 30px 0 40px; font-family:Calibri; font-size:12px; color:#CCCCCC; list-style:none; float:left; text-decoration:none; height:39px;}*/
+
+.baner {
+  margin: 8px 0 0 0px;
+  padding: 0px;
+  width: 984px;
+  overflow: hidden;
+}
+
+.baner-left {
+  margin: 0px 0 0 4px;
+  padding: 0px;
+  width: 637px;
+  float: left;
+}
+
+.baner-right {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  width: 330px;
+}
+
+.baner-right h2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 28px;
+  color: #0f2e65;
+  font-weight: bold;
+}
+
+.we-offer {
+  margin: 30px 0 0 0px;
+  padding: 0px;
+  width: 330px;
+  overflow: hidden;
+}
+
+.we-offer h2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 32px;
+  color: #000000;
+}
+
+.we-offer ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.we-offer ul li {
+  margin: 0px;
+  padding: 15px 0 0 30px;
+  font-family: Calibri;
+  font-size: 14px;
+  color: #000000;
+  background: url(../images/arrow.png) left 15px no-repeat;
+  height: 15px;
+}
+
+.Call-today {
+  margin: 17px 0 0 0px;
+  padding: 0px;
+  width: 330px;
+  overflow: hidden;
+}
+
+.Call-today-left {
+  margin: 20px 0 0 0px;
+  padding: 0px;
+  float: left;
+  width: 190px;
+}
+
+.Call-today-left h2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 15px;
+  color: #0f2e65;
+  font-weight: bold;
+}
+
+.Call-today-left h3 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 28px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.Call-today-right {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+.three-box {
+  margin: 12px 0 0 0px;
+  padding: 0px;
+  width: 1024px;
+  overflow: hidden;
+}
+
+.three-box-left {
+  margin: 0px;
+  padding: 0px;
+  width: 335px;
+  height: 198px;
+  background: url(../images/services-box.png) left top no-repeat;
+  float: left;
+}
+
+.three-box-left h2 {
+  margin: 0px;
+  padding: 10px 0 0 30px;
+  font-family: Calibri;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.three-box-left ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.three-box-left ul li {
+  margin: 0px;
+  padding: 10px 0 0 60px;
+  background: url(../images/arrow_2.png) 30px 10px no-repeat;
+  color: #FFFFFF;
+  font-family: Calibri;
+  font-size: 12px;
+}
+
+.three-box-right {
+  margin: 0px;
+  padding: 0px;
+  width: 685px;
+  float: right;
+}
+
+.three-box-right ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.three-box-right ul li {
+  margin: 0px;
+  padding: 0px 0 0 6px;
+  float: left;
+}
+
+/*continer start here*/
+
+.continer {
+  margin: 10px 0 0 0px;
+  padding: 0px;
+  width: 1024px;
+  overflow: hidden;
+}
+
+/*.continer-left start here*/
+
+.continer-left-text {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 670px;
+}
+
+.continer-left {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 680px;
+}
+
+.continer-left h1 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 22px;
+  color: #000000;
+}
+
+.continer-left h1 span {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 22px;
+  color: #0f2e65;
+}
+
+.continer-left p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 12px;
+  color: #000000;
+  text-align: justify;
+  line-height: 20px;
+  width: 662px;
+}
+
+.continer-left-alllogo {
+  margin: 20px 0 0 0px;
+  padding: 0px;
+  width: 670px;
+  overflow: hidden;
+}
+
+/*.continer-left end here*/
+
+/*.continer-right start here*/
+
+.continer-right {
+  margin: 0px 5px 0 0px;
+  padding: 0px;
+  float: right;
+  width: 324px;
+}
+
+.form-main {
+  margin: 0px 0px 0 0px;
+  padding: 0px;
+  width: 325px;
+  overflow: hidden;
+  background: #fffcdb;
+  border: 1px solid #ede688;
+}
+
+.form {
+  margin: 10px auto;
+  padding: 0px;
+  width: 310px;
+  overflow: hidden;
+}
+
+.form h2 {
+  margin: 0px;
+  padding: 2px 0 0 50px;
+  font-family: Calibri;
+  font-size: 22px;
+  color: #FFFFFF;
+  background: url(../images/get-esimat.png) left top repeat-x;
+  height: 35px;
+}
+
+.form ul {
+  margin: 10px 0 0 0px;
+  padding: 0px;
+}
+
+.form ul li {
+  margin: 10px 0 0 0px;
+  padding: 0px 0 0px 0px;
+  font-family: Calibri;
+  font-size: 12px;
+  color: #666666;
+  list-style: none;
+  background: url(../images/name-box.png) left top repeat-x;
+  height: 36px;
+  border: 1px solid #c1be95;
+  border-radius: 5px;
+}
+
+.input {
+  margin: 1px 0 0 2px;
+  padding: 0px 0 0 5px;
+  font-family: Calibri;
+  font-size: 12px;
+  color: #999999;
+  width: 298px;
+  border: none;
+  height: 31px;
+  background: none;
+}
+
+.service-required {
+  margin: 0px auto;
+  padding: 0px;
+  width: 310px;
+}
+
+.service-required h3 {
+  margin: 0px;
+  padding: 0px;
+  font-family: Calibri;
+  font-size: 22px;
+  color: #000000;
+}
+
+.service-required-left {
+  margin: 0px;
+  padding: 0px;
+  width: 120px;
+  float: left;
+}
+
+.service-required-left-left {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  width: 30px;
+}
+
+.service-required-left-left ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.service-required-left-left ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.service-required-left-right {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.service-required-left-right ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.service-required-left-right ul li {
+  margin: 0px;
+  padding: 0px 0 5px 0px;
+  font-family: Calibri;
+  font-size: 12px;
+  color: #000000;
+  list-style: none;
+}
+
+.service-required-right {
+  margin: 0px;
+  padding: 0px;
+  width: 130px;
+  float: right;
+}
+
+.service-required-right-left {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.service-required-right-left ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.service-required-right-left ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.service-required-right-right {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.service-required-right-right ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.service-required-right-right ul li {
+  margin: 0px;
+  padding: 0px 0 5px 5px;
+  font-family: Calibri;
+  font-size: 12px;
+  color: #000000;
+  list-style: none;
+}
+
+.submit {
+  margin: 10px auto;
+  padding: 0px;
+  width: 311px;
+  overflow: hidden;
+}
+
+.video {
+  margin: 10px 0 0 0px;
+  padding: 0px;
+  width: 328px;
+}
+
+/*.continer-right end here*/
+
+/*continer end here*/
+
+/*foter start here*/
+
+.main-footer {
+  margin: 10px 0 0 0px;
+  padding: 0px;
+  width: 100%;
+  background: #0f2e65;
+  height: 100px;
+  overflow: hidden;
+}
+
+.footer {
+  margin: 0px auto;
+  padding: 0px;
+  overflow: hidden;
+  width: 1024px
+}
+
+.footer-left {
+  margin: 20px 0 0 0px;
+  padding: 0px;
+  float: left;
+  width: 560px;
+}
+
+.footer-left a {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  text-align: justify;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.footer-left a:hover {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  text-align: justify;
+  font-size: 14px;
+  color: #999999;
+}
+
+.footer-right {
+  margin: 20px 0 0 0px;
+  padding: 0px;
+  float: right;
+  width: 280px;
+}
+
+.footer-right ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-right ul li {
+  margin: 0px;
+  padding: 0px 2px 0 2px;
+  float: left;
+  list-style: none;
+}
+
+/*foter end here*/
